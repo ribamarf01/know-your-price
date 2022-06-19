@@ -4,7 +4,11 @@ module.exports = {
     "src/**/*.tsx"
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'poppins': ['Poppins', 'sans-serif']
+      }
+    },
   },
   plugins: [],
 }
