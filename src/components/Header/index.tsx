@@ -16,7 +16,7 @@ const Header = () => {
         <li className='px-3 text-white hover:text-rhythm duration-300 transition-all cursor-pointer font-medium font-poppins text-lg tracking-tighter'>Planos</li>
         <li className='px-3 text-white hover:text-rhythm duration-300 transition-all cursor-pointer font-medium font-poppins text-lg tracking-tighter'>Fale conosco</li>
 
-        <li className='px-3 ml-3 py-1 rounded  text-white bg-rhythm hover:bg-independence hover:text-gray-100 duration-300 transition-all cursor-pointer font-medium text-lg font-poppins tracking-tighter'>Calculadora</li>
+        <li className='px-3 ml-3 py-1 rounded text-white bg-rhythm hover:bg-independence hover:text-rhythm duration-300 transition-all cursor-pointer font-medium text-lg font-poppins tracking-tighter'>Calculadora</li>
       </ul>
     </header>
   </>)
