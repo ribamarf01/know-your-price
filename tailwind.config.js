@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+// Color Pallete: https://coolors.co/7cc6fe-35a6fd-5c5874-837f9f-08090a
 module.exports = {
   content: [
     "src/**/*.tsx"
