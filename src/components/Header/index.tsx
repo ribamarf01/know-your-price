@@ -12,7 +12,7 @@ const Header = () => {
       </Link>
       <ul className='flex items-center mr-8'>
         <li className='px-3 text-white hover:text-rhythm duration-300 transition-all cursor-pointer font-medium font-poppins text-lg tracking-tighter'>Inicio</li>
-        <li className='px-3 text-white hover:text-rhythm duration-300 transition-all cursor-pointer font-medium font-poppins text-lg tracking-tighter'>Quem somos</li>
+        <li className='px-3 text-white hover:text-rhythm duration-300 transition-all cursor-pointer font-medium font-poppins text-lg tracking-tighter'>Objetivo</li>
         <li className='px-3 text-white hover:text-rhythm duration-300 transition-all cursor-pointer font-medium font-poppins text-lg tracking-tighter'>Planos</li>
         <li className='px-3 text-white hover:text-rhythm duration-300 transition-all cursor-pointer font-medium font-poppins text-lg tracking-tighter'>Suporte</li>
 
