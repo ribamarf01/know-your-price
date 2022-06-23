@@ -32,10 +32,13 @@ const Pricing = () => {
               <Check /><p className="ml-4">Calculadora avançada de preços</p>
             </li>
             <li className="flex items-center text-lg text-rhythm">
-              <Check /><p className="ml-4">Visualização avançada de produtos (Ganho individual e por lote detalhado)</p>
+              <Check /><p className="ml-4">Visualização avançada de produtos</p>
             </li>
             <li className="flex items-center text-lg text-rhythm">
-              <Check /><p className="ml-4">Sem limite para produtos salvos </p>
+              <Check /><p className="ml-4">Detalhe individuais e de lote do produto</p>
+            </li>
+            <li className="flex items-center text-lg text-rhythm">
+              <Check /><p className="ml-4">Sem limite para produtos salvos</p>
             </li>
           </ul>
 

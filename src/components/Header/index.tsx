@@ -23,15 +23,16 @@ const Header = () => {
         <svg className="w-6 h-6 text-white mr-8 md:hidden cursor-pointer" onClick={()=>changeMenuState()} fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" /></svg>
       }
       
-      <ul className={`md:flex md:static md:items-center mr-5 ${activeMenu ? 'block absolute' : 'hidden'} md:top-0 top-16 bg-rich-black-fogra w-full md:w-auto text-center`}>
+      <ul className={`md:flex md:static md:items-center mr-5 ${activeMenu ? 'block absolute' : 'hidden'} md:top-0 top-16 bg-rich-black-fogra w-full md:w-auto text-center `}>
         <li className='px-3 py-2 md:py-0 text-white hover:text-rhythm duration-300 transition-all cursor-pointer font-medium font-poppins text-2xl md:text-lg tracking-tighter'>Inicio</li>
-        <li className='px-3 py-2 md:py-0 text-white hover:text-rhythm duration-300 transition-all cursor-pointer font-medium font-poppins text-2xl md:text-lg tracking-tighter'>Objetivo</li>
+        <li className='px-3 py-2 md:py-0 text-white hover:text-rhythm duration-300 transition-all cursor-pointer font-medium font-poppins text-2xl md:text-lg tracking-tighter'>Como</li>
+        <li className='px-3 py-2 md:py-0 text-white hover:text-rhythm duration-300 transition-all cursor-pointer font-medium font-poppins text-2xl md:text-lg tracking-tighter'>Ferramenta</li>
         <li className='px-3 py-2 md:py-0 text-white hover:text-rhythm duration-300 transition-all cursor-pointer font-medium font-poppins text-2xl md:text-lg tracking-tighter'>Planos</li>
         <li className='px-3 py-2 md:py-0 text-white hover:text-rhythm duration-300 transition-all cursor-pointer font-medium font-poppins text-2xl md:text-lg tracking-tighter'>Suporte</li>
 
-        <li className='md:py-0 mx-3 mb-3 md:mb-0 flex justify-center'>
+        {/* <li className='md:py-0 mx-3 mb-3 md:mb-0 flex justify-center'>
           <p className='px-3 py-2 md:w-full w-1/3 rounded text-white bg-rhythm hover:bg-independence hover:text-alice-blue duration-300 transition-all cursor-pointer font-medium text-2xl md:text-lg font-poppins tracking-tighter'>Calculadora</p>
-        </li>
+        </li> */}
       </ul>
     </header>
   </>)

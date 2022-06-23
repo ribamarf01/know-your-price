@@ -21,13 +21,13 @@ const Hero = () => {
 
       <div className="w-full mt-6">
         <article className="flex flex-col items-center font-poppins text-3xl tracking-wider text-rhythm">
-          <h1 className="md:w-1/3 text-center">A <span className="text-blue-jeans underline font-bold -tracking-wider">Know Your Price</span> tem como objetivo ajudar o pequeno e médio negócio.</h1>
+          <h1 className="lg:w-1/3 mx-4 text-center">A <span className="text-blue-jeans underline font-bold -tracking-wider">Know Your Price</span> tem como objetivo ajudar o pequeno e médio negócio.</h1>
           <div className="py-4"></div>
           
           <h1 className="text-5xl font-poppins -tracking-wider text-independence">Como?</h1>
           <div className="py-4"></div>
           
-          <p className="md:w-1/3 text-center">
+          <p className="lg:w-1/3 mx-4 text-center">
             Te ajudando a deixar seu produto com o preço mais <b>competitivo</b> e <b>rentável</b> para vendas!
           </p>
 
@@ -37,7 +37,7 @@ const Hero = () => {
 
           <div className="py-4"></div>
 
-          <article className="grid xl:grid-cols-3 grid-cols-1 w-full place-items-center px-24 gap-8">
+          <article className="grid xl:grid-cols-3 grid-cols-1 w-full place-items-center px-8 gap-8">
             <section className="rounded-lg shadow-sm bg-green-600 p-4 w-full h-full flex flex-col items-center">
               <svg className="w-20 h-20 center text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
               <h1 className="text-2xl font-bold -tracking-wide text-white text-center my-2">Ferramenta de precificação!</h1>
