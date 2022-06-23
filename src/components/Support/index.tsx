@@ -1,4 +1,5 @@
 import { FormEvent, useState } from 'react'
+import { send } from '@emailjs/browser'
 
 interface Form {
   name: string
@@ -20,8 +21,21 @@ const Support = () => {
 
   const sendSupportMessage = (e: FormEvent) => {
     e.preventDefault()
-    console.log(form)
-    setForm(EMPTY_FORM)
+
+    send('gmail_service', 'know_your_price_support', {
+      name: form.name,
+      email: form.email,
+      subject: form.subject,
+      content: form.content
+    }, 'L7v95KUvrXilSDXLi')
+      .then(res => {
+        setForm(EMPTY_FORM)
+        console.log(res.text)
+      })
+      .catch(err => {
+        setForm(EMPTY_FORM)
+        console.log(err.text)
+      })
   }
 
   return(<>
@@ -33,7 +47,7 @@ const Support = () => {
 
         <div className="py-4"></div>
 
-        <form className='flex flex-col items-center w-full mx-4 md:w-1/3' onSubmit={e => sendSupportMessage(e)}>
+        <form className='flex flex-col items-center w-full mx-4 md:w-1/3' onSubmit={sendSupportMessage}>
           <label className='text-xl font-bold py-2 text-alice-blue' htmlFor="name">Nome:</label>
           <input className='text-alice-blue text-lg bg-transparent border-maya-blue border rounded outline-none text-center p-2 w-2/3' placeholder='Seu nome' id='name' type="text" value={form.name} onChange={e => setForm({ ...form, name: e.target.value })}/>
 
