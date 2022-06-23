@@ -22,20 +22,20 @@ const Hero = () => {
       <div className="w-full mt-6">
         <article className="flex flex-col items-center font-poppins text-3xl tracking-wider text-rhythm">
           <h1 className="md:w-1/3 text-center">A <span className="text-blue-jeans underline font-bold -tracking-wider">Know Your Price</span> tem como objetivo ajudar o pequeno e médio negócio.</h1>
-          <div className="my-4"></div>
+          <div className="py-4"></div>
           
           <h1 className="text-5xl font-poppins -tracking-wider text-independence">Como?</h1>
-          <div className="my-4"></div>
+          <div className="py-4"></div>
           
           <p className="md:w-1/3 text-center">
             Te ajudando a deixar seu produto com o preço mais <b>competitivo</b> e <b>rentável</b> para vendas!
           </p>
 
-          <div className="my-4"></div>
+          <div className="py-4"></div>
 
           <p className="text-5xl font-poppins -tracking-wider text-independence">De que forma?</p>
 
-          <div className="my-4"></div>
+          <div className="py-4"></div>
 
           <article className="grid xl:grid-cols-3 grid-cols-1 w-full place-items-center px-24 gap-8">
             <section className="rounded-lg shadow-sm bg-green-600 p-4 w-full h-full flex flex-col items-center">
@@ -61,7 +61,7 @@ const Hero = () => {
 
         </article>
 
-        <div className="my-4"></div>
+        <div className="py-4"></div>
 
       </div>
 
