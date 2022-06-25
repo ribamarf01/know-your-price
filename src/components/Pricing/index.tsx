@@ -2,7 +2,7 @@ const Pricing = () => {
 
    return (<>
     <div className="flex flex-col items-center">
-      <h1 className="text-5xl font-poppins -tracking-wider text-independence">Conheça nossos planos:</h1>
+      <h1 className="text-5xl font-poppins -tracking-wider text-center text-independence">Conheça nossos planos:</h1>
 
       <div className="py-4"></div>
 
