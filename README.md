@@ -4,7 +4,7 @@
 
 - 😎 Um projeto que simula uma pequena landing page de uma startup fictícia que ajuda a precificar produtos;
 - 👨‍💻 Usa NextJS mas poderia facilmente apenas usar React. Para a estilização utiliza TailwindCSS
-- 🔗 Esse projeto pode ser encontrado rodando em: https://valorant-arsenal-next.vercel.app/.
+- 🔗 Esse projeto pode ser encontrado rodando em: https://know-your-price.vercel.app/
 - 😜 A parte de suporte possui uma interação com a biblioteca EmailJS, se quiser, use para deixar uma mensagem para mim! :)
 
 ## 🔥 Techs used
