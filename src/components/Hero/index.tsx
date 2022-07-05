@@ -1,7 +1,7 @@
 const Hero = () => {
   
   return (<> 
-    <main className="w-full">
+    <main className="w-full" id="hero">
 
       <div className='flex lg:flex-row flex-col items-center justify-center gap-x-12 h-screen relative px-4'>
         <section className='flex flex-col lg:w-1/3 '>
@@ -19,7 +19,7 @@ const Hero = () => {
         <svg className="h-12 w-12 absolute bottom-4 animate-bounce" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M15.707 4.293a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-5-5a1 1 0 011.414-1.414L10 8.586l4.293-4.293a1 1 0 011.414 0zm0 6a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-5-5a1 1 0 111.414-1.414L10 14.586l4.293-4.293a1 1 0 011.414 0z" clipRule="evenodd" /></svg>
       </div>
 
-      <div className="w-full mt-6">
+      <div className="w-full mt-6" id="how">
         <article className="flex flex-col items-center font-poppins text-3xl tracking-wider text-rhythm">
           <h1 className="lg:w-1/3 mx-4 text-center">A <span className="text-blue-jeans underline font-bold -tracking-wider">Know Your Price</span> tem como objetivo ajudar o pequeno e médio negócio.</h1>
           <div className="py-4"></div>
@@ -27,13 +27,13 @@ const Hero = () => {
           <h1 className="text-5xl font-poppins -tracking-wider text-independence">Como?</h1>
           <div className="py-4"></div>
           
-          <p className="lg:w-1/3 mx-4 text-center">
+          <p className="lg:w-1/3 mx-4 text-center" id="tool">
             Te ajudando a deixar seu produto com o preço mais <b>competitivo</b> e <b>rentável</b> para vendas!
           </p>
 
           <div className="py-4"></div>
 
-          <p className="text-5xl font-poppins -tracking-wider text-independence">De que forma?</p>
+          <p className="text-5xl font-poppins -tracking-wider text-independence" >De que forma?</p>
 
           <div className="py-4"></div>
 

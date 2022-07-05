@@ -57,7 +57,7 @@ const Support = () => {
   }
 
   return (<>
-    <div>
+    <div id='support'>
       <div className="flex flex-col items-center w-full bg-rich-black-fogra py-4">
         <h1 className="text-5xl font-poppins text-alice-blue mx-4 -tracking-wider font-bold">Suporte</h1>
         <div className="py-4"></div>
@@ -80,7 +80,7 @@ const Support = () => {
 
           <div className="py-2"></div>
 
-          <button className='text-xl p-2 w-1/4 rounded-lg bg-maya-blue hover:bg-blue-jeans duration-300 transition-all text-white' type='submit'>Enviar</button>
+          <button className='text-xl p-2 w-1/4 rounded-lg bg-rhythm hover:bg-blue-jeans duration-300 transition-all text-white' type='submit'>Enviar</button>
 
         </form>
 

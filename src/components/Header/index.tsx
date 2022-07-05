@@ -25,10 +25,10 @@ const Header = () => {
       
       <ul className={`md:flex md:static md:items-center mr-5 ${activeMenu ? 'block absolute' : 'hidden'} md:top-0 top-16 bg-rich-black-fogra w-full md:w-auto text-center `}>
         <li className='px-3 py-2 md:py-0 text-white hover:text-rhythm duration-300 transition-all cursor-pointer font-medium font-poppins text-2xl md:text-lg tracking-tighter'>Inicio</li>
-        <li className='px-3 py-2 md:py-0 text-white hover:text-rhythm duration-300 transition-all cursor-pointer font-medium font-poppins text-2xl md:text-lg tracking-tighter'>Como</li>
-        <li className='px-3 py-2 md:py-0 text-white hover:text-rhythm duration-300 transition-all cursor-pointer font-medium font-poppins text-2xl md:text-lg tracking-tighter'>Ferramenta</li>
-        <li className='px-3 py-2 md:py-0 text-white hover:text-rhythm duration-300 transition-all cursor-pointer font-medium font-poppins text-2xl md:text-lg tracking-tighter'>Planos</li>
-        <li className='px-3 py-2 md:py-0 text-white hover:text-rhythm duration-300 transition-all cursor-pointer font-medium font-poppins text-2xl md:text-lg tracking-tighter'>Suporte</li>
+        <li className='px-3 py-2 md:py-0 text-white hover:text-rhythm duration-300 transition-all cursor-pointer font-medium font-poppins text-2xl md:text-lg tracking-tighter'><a href="#how">Como</a></li>
+        <li className='px-3 py-2 md:py-0 text-white hover:text-rhythm duration-300 transition-all cursor-pointer font-medium font-poppins text-2xl md:text-lg tracking-tighter'><a href="#tool">Ferramenta</a></li>
+        <li className='px-3 py-2 md:py-0 text-white hover:text-rhythm duration-300 transition-all cursor-pointer font-medium font-poppins text-2xl md:text-lg tracking-tighter'><a href="#pricing">Planos</a></li>
+        <li className='px-3 py-2 md:py-0 text-white hover:text-rhythm duration-300 transition-all cursor-pointer font-medium font-poppins text-2xl md:text-lg tracking-tighter'><a href="#support">Suporte</a></li>
 
         {/* <li className='md:py-0 mx-3 mb-3 md:mb-0 flex justify-center'>
           <p className='px-3 py-2 md:w-full w-1/3 rounded text-white bg-rhythm hover:bg-independence hover:text-alice-blue duration-300 transition-all cursor-pointer font-medium text-2xl md:text-lg font-poppins tracking-tighter'>Calculadora</p>
