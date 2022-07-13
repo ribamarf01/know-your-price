@@ -8,14 +8,14 @@ interface Form {
   name: string
   email: string
   subject: string
-  content: string
+  message: string
 }
 
 const EMPTY_FORM: Form = {
   name: '',
   email: '',
   subject: '',
-  content: '',
+  message: '',
 }
 
 const Support = () => {
@@ -29,7 +29,7 @@ const Support = () => {
       name: form.name,
       email: form.email,
       subject: form.subject,
-      content: form.content
+      message: form.message
     }, 'L7v95KUvrXilSDXLi')
       .then(res => {
         setForm(EMPTY_FORM)
@@ -75,8 +75,8 @@ const Support = () => {
           <label className='text-xl font-bold py-2 text-alice-blue' htmlFor="subject">Motivo:</label>
           <input className='text-alice-blue text-lg bg-transparent border-maya-blue border rounded outline-none text-center p-2 w-2/3' placeholder='Motivo' id='subject' type="text" value={form.subject} onChange={e => setForm({ ...form, subject: e.target.value })} />
 
-          <label className='text-xl font-bold py-2 text-alice-blue' htmlFor="content">Descrição:</label>
-          <textarea className='text-alice-blue text-lg bg-transparent border-maya-blue border rounded outline-none text-center p-2 w-2/3 resize-none h-36' placeholder='Descrição' id='content' value={form.content} onChange={e => setForm({ ...form, content: e.target.value })} />
+          <label className='text-xl font-bold py-2 text-alice-blue' htmlFor="message">Descrição:</label>
+          <textarea className='text-alice-blue text-lg bg-transparent border-maya-blue border rounded outline-none text-center p-2 w-2/3 resize-none h-36' placeholder='Descrição' id='content' value={form.message} onChange={e => setForm({ ...form, message: e.target.value })} />
 
           <div className="py-2"></div>
 
